@@ -1,0 +1,167 @@
+/* CSS Document */
+
+body{
+	margin: 0px auto;
+	background-image:url(../images/spacer.jpg);
+	background-repeat:repeat-x;
+ }
+table {
+	text-align:right;
+	background-color: #d4f1b3;
+}
+.con_body{ 
+ 	width: 850px;
+	margin: 0px auto;
+}
+img.left {
+	float: left;
+	margin: 0px 30px 0 0;
+}
+
+h3{ 
+	margin:0px; 
+	padding: 10px ;
+		color: #6c9d32; 
+}
+button #search{
+	background-image:url(../images/go.jpg);
+	width:20px;
+	height:20px;
+}
+
+/* ************** ************** TOP NAV * ************** **************/
+#header-wrapper{
+	height: auto;
+}
+
+#header{
+	width: 850px;
+	height:40px;
+	background-image:url(../images/mgreyfill.jpg);
+	background-repeat:repeat-x;
+}
+#menu 
+{
+	float: right;
+	width: 450px;
+	margin-top: 10px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 25px 0 25px 20px;
+	list-style: none;
+	line-height: normal;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+	padding: 20px;
+}
+
+#menu a{
+	display: inline;
+	padding: 25px;
+	text-decoration: none;
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	background: #39561D;
+	color: #FFFFFF;
+}
+
+#menu a:hover { text-decoration: underline;color: #303030; }
+#menu .current_page_item a 
+{	margin-right: 17px;
+	padding: 12px;
+	background: #39561D;
+	color: #FFFFFF;
+}
+/* ************** ************** CONTENT * ************** **************/
+#Form1
+{
+	text-align:center;
+}
+#Message
+{
+	text-align:center;}
+.left_con{
+	float:left;
+	width:457px;
+	margin: 15px;
+	padding: 10px;
+}
+.left_con #lmenu ul{
+	margin: 0px;
+	padding: 13px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+.left_con #lmenu li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+.left_con #lmenu a {
+	margin-right: 17px;
+	padding: 4px 12px;
+	text-decoration: none;
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	color: #303030;
+}
+.left_con #lmenu a:hover { text-decoration: underline; }
+.left_con #lmenu .current_page_item a {
+	background: #39561D;
+	color: #FFFFFF;
+}
+.left_con img{
+	margin:0px 10px;
+	padding: 5px 10px;
+}
+
+.inner_left
+{
+	margin:0px;
+	Padding:0px;
+}
+.right_con{
+	float:left;
+	width:325px;
+	margin-bottom:10px;
+	background-color: #d4f1b3;
+
+}
+.right_con h2{
+	color: #6c9d32;/*#fc911b;*/
+}
+.right_con h3{
+	margin:0px; 
+	padding: 10px 10px 0px 10px;
+	color: #6c9d32;/*#fc911b;*/
+	border-bottom: 1px dashed #2D4516;
+
+}
+.buttonClass
+{
+	text-align:center;
+	float:right;
+	background-color:#6c9d32;
+	color:#FFF;
+	font-weight:bold;
+}
+.panelClass {background-color: #6c9d32;color:#FFF; font-weight:bold; width: 300px;} 
+.friendButton{
+	margin:10px 0px;
+	text-align:center;
+	float:right;
+	background-color:#6c9d32;
+	color:#FFF;
+}
+/*********************   FOOTER **********************************************/
+#footer{
+	margin: 15px 0px;
+	height:45px;
+	background-image:url(../images/lgreyfill_sm.jpg);
+	background-repeat:repeat-x;
+	background-color:#e8fad2;/*e6fbcd;*//*#ecf5e2;*/
+}
